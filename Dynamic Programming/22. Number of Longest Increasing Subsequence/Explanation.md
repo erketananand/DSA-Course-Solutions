@@ -8,7 +8,7 @@
 **Time Complexity:** `O(n²)` (Nested loops checking previous LIS values)
 
 **Space Complexity:** `O(n)` (For dp[] and count[] arrays)
-```
+```javascript
 Function findNumberOfLIS(nums):
     l = length of nums
     dp = array of size l filled with 1
@@ -36,7 +36,7 @@ Function findNumberOfLIS(nums):
 **Time Complexity:** `O(n²)` (Each dfs(i) checks all j < i)
 
 **Space Complexity:** `O(n)` (Recursion stack + Memoization arrays)
-```
+```javascript
 Function findNumberOfLIS(nums):
     l = length of nums
     dp = array of size l filled with -1

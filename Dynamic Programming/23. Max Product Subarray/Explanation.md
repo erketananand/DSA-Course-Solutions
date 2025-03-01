@@ -8,7 +8,7 @@
 **Time Complexity:** `O(n)`, since we iterate once.
 
 **Space Complexity:** `O(1)`, using constant extra space.
-```
+```javascript
 Function maxProduct(nums):
     Initialize maxProd, minProd, result = nums[0]
 
@@ -28,7 +28,7 @@ Function maxProduct(nums):
 **Time Complexity:** `O(n)`, since we iterate once.
 
 **Space Complexity:** `O(n)`, Recursive call stack O(n) + Memoization arrays O(n).
-```
+```javascript
 Function helper(index, nums, memoMax, memoMin):
     If index == 0:
         Return nums[0]
